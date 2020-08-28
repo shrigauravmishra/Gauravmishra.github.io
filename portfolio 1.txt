@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Harbi Alliance | Portfolio</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="header__nav">
+                <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/logo.png?raw=true" alt="logo" class="header__logo" title="Logo">
+
+                <ul class="header__list">
+                    <li class="header__item"><a href="#home" class="header__link active">Home</a></li>
+                    <li class="header__item"><a href="#about" class="header__link">About</a></li>
+                    <li class="header__item"><a href="#work" class="header__link">Work</a></li>
+                    <li class="header__item"><a href="#contact" class="header__link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__content" id="home">
+                <h1 class="header__heading">Hello there, I Am Harbi Alliance</h1>
+                <p class="header__text">I Am Junoir Front-end Developer</p>
+                <a href="#work" class="header__btn btn-main">View Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features__heading">
+                <h1>I Specialize In</h1>
+            </div>
+            <div class="features__text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, magni.</p>
+            </div>
+            <div class="features__wrapper">
+                <div class="feature">
+                    <div class="feature__wrapper-flex">
+                        <i class="fas fa-file-alt fa-2x"></i>
+                        <h3 class="feature__heading">Concepting</h3>
+                    </div>
+                    <p class="feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio, iure
+                        error neque magni quas aspernatur doloremque iusto maxime velit.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__wrapper-flex">
+                        <i class="fas fa-desktop fa-2x"></i>
+                        <h3 class="feature__heading">UI/UX</h3>
+                    </div>
+                    <p class="feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio, iure
+                        error neque magni quas aspernatur doloremque iusto maxime velit.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__wrapper-flex">
+                        <i class="fas fa-object-ungroup fa-2x"></i>
+                        <h3 class="feature__heading">Visual Design</h3>
+                    </div>
+                    <p class="feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio, iure
+                        error neque magni quas aspernatur doloremque iusto maxime velit.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature__wrapper-flex">
+                        <i class="fas fa-thumbs-up fa-2x"></i>
+                        <h3 class="feature__heading">Interaction</h3>
+                    </div>
+                    <p class="feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odio, iure
+                        error neque magni quas aspernatur doloremque iusto maxime velit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="statistic">
+        <div class="statistic__wrapper">
+            <div class="stat">
+                <ul class="stat__list">
+                    <li class="stat__item"><i class="fa fa-users fa-2x"></i></li>
+                    <li class="stat__item">Clients</li>
+                    <li class="stat__item">5</li>
+                </ul>
+            </div>
+            <div class="stat">
+                <ul class="stat__list">
+                    <li class="stat__item"> <i class="fa fa-coins fa-2x"></i></li>
+                    <li class="stat__item">Awards</li>
+                    <li class="stat__item">0</li>
+                </ul>
+            </div>
+            <div class="stat">
+                <ul class="stat__list">
+                    <li class="stat__item"><i class="fa fa-hourglass-start fa-2x" aria-hidden="true"></i></li>
+                    <li class="stat__item">Hours</li>
+                    <li class="stat__item">300</li>
+                </ul>
+            </div>
+            <div class="stat">
+                <ul class="stat__list">
+                    <li class="stat__item"><i class="fa fa-code-branch fa-2x"></i></li>
+                    <li class="stat__item">Project Completed</li>
+                    <li class="stat__item">12</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="processes" id="process">
+        <div class="container">
+            <div class="processes__heading">
+                <h1>My Creative Process</h1>
+            </div>
+            <div class="processes__text">
+                <p>All of my UI/UX and design projects are based off a practised formula to get the result that I am
+                    looking for</p>
+            </div>
+            <div class="processes__wrapper">
+                <div class="process">
+                    <i class="fas fa-file-alt fa-3x icon-big"></i>
+                    <div class="process__step"><small>1</small></div>
+                    <div class="process__content">
+                        <div class="process__heading">
+                            <h3>Discuss The Project</h3>
+                        </div>
+                        <div class="process__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                            nihil quas, recusandae in consequatur earum excepturi sint veritatis eligendi velit, eius
+                            expedita praesentium quod incidunt odio officia! Facere, aperiam dicta!</div>
+                    </div>
+                </div>
+                <div class="process">
+                    <i class="fas fa-desktop fa-3x icon-big"></i>
+                    <div class="process__step"><small>2</small></div>
+                    <div class="process__content">
+                        <div class="process__heading">
+                            <h3>Brainstorming & Concept</h3>
+                        </div>
+                        <div class="process__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                            nihil quas, recusandae in consequatur earum excepturi sint veritatis eligendi velit, eius
+                            expedita praesentium quod incidunt odio officia! Facere, aperiam dicta!</div>
+                    </div>
+                </div>
+                <div class="process">
+                    <i class="fas fa-object-ungroup fa-3x icon-big"></i>
+                    <div class="process__step"><small>3</small></div>
+                    <div class="process__content">
+                        <div class="process__heading">
+                            <h3>UI/UX Planning</h3>
+                        </div>
+                        <div class="process__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                            nihil quas, recusandae in consequatur earum excepturi sint veritatis eligendi velit, eius
+                            expedita praesentium quod incidunt odio officia! Facere, aperiam dicta!</div>
+                    </div>
+                </div>
+                <div class="process">
+                    <i class="fas fa-thumbs-up fa-3x icon-big"></i>
+                    <div class="process__step">4</div>
+                    <div class="process__content">
+                        <div class="process__heading">
+                            <h3>Interaction</h3>
+                        </div>
+                        <div class="process__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                            nihil quas, recusandae in consequatur earum excepturi sint veritatis eligendi velit, eius
+                            expedita praesentium quod incidunt odio officia! Facere, aperiam dicta!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <section class="about" id="about">
+        <div class="container">
+            <div class="about__heading">
+                <h1>About Me</h1>
+            </div>
+            <div class="about__text">
+                <p>Let me tell you a little about myself and what I do...</p>
+            </div>
+            <div class="about__wrapper">
+
+                <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/about.jpg?raw=true" alt="about-me" class="about__img">
+
+                <div class="about__content">
+                    <div class="about__content-heading">
+                        <h2>Your project is in safe hands</h2>
+                    </div>
+                    <div class="about__content-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet praesentium nemo
+                            ducimus libero fugiat quos harum cupiditate? Unde ratione laborum consectetur et at omnis
+                            officiis magnam neque rerum quo non qui voluptatem odio iure nisi voluptas velit, itaque
+                            deleniti suscipit id consequatur officia quisquam. A consequuntur aliquid consequatur
+                            perspiciatis?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about__awards">
+                <div class="award">
+                    <i class="fas fa-coins coins"></i>
+                    <h2 class="award__heading">Award-1</h2>
+                    <p class="award__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, totam.</p>
+                </div>
+                <div class="award">
+                    <i class="fas fa-coins coins"></i>
+                    <h2 class="award__heading">Award-2</h2>
+                    <p class="award__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, totam.</p>
+                </div>
+                <div class="award">
+                    <i class="fas fa-coins coins"></i>
+                    <h2 class="award__heading">Award-3</h2>
+                    <p class="award__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, totam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="progresses">
+        <div class="container">
+            <div class="progresses__heading">
+                <h1>Technical Skills</h1>
+            </div>
+            <div class="progress__wrapper">
+                <div class="progress">
+                    <h4 class="progress__heading">html+scss+bem+bootstrap: </h4>
+                    <div class="progress-line">
+                        <div style="max-width:0%" class="progress-success success-1">
+                            <h1>70%</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4 class="progress__heading">javascript+jquery: </h4>
+                    <div class="progress-line">
+                        <div style="max-width:0%" class="progress-success success-2">
+                            <h1>5%</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4 class="progress__heading">adobe photoshop: </h4>
+                    <div class="progress-line">
+                        <div style="max-width:0%" class="progress-success success-3">
+                            <h1>30%</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4 class="progress__heading">Informatics: </h4>
+                    <div class="progress-line">
+                        <div style="max-width:0%" class="progress-success success-4">
+                            <h1>50%</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4 class="progress__heading">Self-development: </h4>
+                    <div class="progress-line">
+                        <div style="max-width:0%" class="progress-success success-5">
+                            <h1>100%</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="logos" id="logos">
+        <div class="container">
+            <div class="logos__wrapper">
+                <div class="logo">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/about-logos/logo-envato.png?raw=true" title="Envato-Partner" alt="logo-partner">
+                </div>
+                <div class="logo">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/about-logos/logo-magento.png?raw=true" title="Magento-Partner" alt="logo-partner">
+                </div>
+                <div class="logo">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/about-logos/logo-woocommerce.png?raw=true" title="Woocommerce-Partner" alt="logo-partner">
+                </div>
+                <div class="logo">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/about-logos/logo-wordpress.png?raw=true" title="Wordpress-Partner" alt="logo-partner">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials__heading">
+                <h1>testimonials</h1>
+            </div>
+            <div class="testimonials__text">
+                <p>Take a look what my clients say...</p>
+            </div>
+
+            <div class="testimonials__wrapper">
+                <div class="testimonial">
+                    <div class="testimonial__text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tempore laboriosam molestias
+                            nobis sequi adipisci maiores alias ea, optio dicta voluptatibus placeat illum. Voluptatem
+                            molestias dolor placeat beatae fuga. Quae.</p>
+                    </div>
+                    <div class="testim__wrapper">
+                        <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/testimonials/person1.jpg?raw=true" alt="person-1" class="testimonial__img">
+                        <div class="testimonial__paragraph">
+                            <p>Sam Smith, New Yourk</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial__text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tempore laboriosam molestias
+                            nobis sequi adipisci maiores alias ea, optio dicta voluptatibus placeat illum. Voluptatem
+                            molestias dolor placeat beatae fuga. Quae.</p>
+                    </div>
+                    <div class="testim__wrapper">
+                        <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/testimonials/person2.jpg?raw=true" alt="person-2" class="testimonial__img">
+                        <div class="testimonial__paragraph">
+                            <p>Sara Williams, Michigan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial__text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tempore laboriosam molestias
+                            nobis sequi adipisci maiores alias ea, optio dicta voluptatibus placeat illum. Voluptatem
+                            molestias dolor placeat beatae fuga. Quae.</p>
+                    </div>
+                    <div class="testim__wrapper">
+                        <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/testimonials/person3.jpg?raw=true" alt="person-3" class="testimonial__img">
+                        <div class="testimonial__paragraph">
+                            <p>Jill Jhonson, London</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial__text">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt tempore laboriosam molestias
+                            nobis sequi adipisci maiores alias ea, optio dicta voluptatibus placeat illum. Voluptatem
+                            molestias dolor placeat beatae fuga. Quae.</p>
+                    </div>
+                    <div class="testim__wrapper">
+                        <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/testimonials/person4.jpg?raw=true" alt="person-4" class="testimonial__img">
+                        <div class="testimonial__paragraph">
+                            <p>Alice Thompson, Boston</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <section class="gallery" id="work">
+        <div class="container">
+            <div class="gallery__heading">
+                <h1>My Works</h1>
+            </div>
+            <div class="gallery__text">
+                <p>Check out some of my projects</p>
+            </div>
+            <div class="items-wrapper">
+                <div class="item">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/items/item1.png?raw=true" alt="item-1" class="item__img">
+                    <div class="item__text">
+                        <div class="item__text-wrap">
+                            <p class="item__text-category">Design</p>
+                            <h2 class="item__text-heading">Great Gradiants</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/items/item2.png?raw=true" alt="item-1" class="item__img">
+                    <div class="item__text">
+                        <div class="item__text-wrap">
+                            <p class="item__text-category">UI/UX</p>
+                            <h2 class="item__text-heading">Experience</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/items/item3.png?raw=true" alt="item-1" class="item__img">
+                    <div class="item__text">
+                        <div class="item__text-wrap">
+                            <p class="item__text-category">Responive Design</p>
+                            <h2 class="item__text-heading">Vanishing</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/items/item4.png?raw=true" alt="item-1" class="item__img">
+                    <div class="item__text">
+                        <div class="item__text-wrap">
+                            <p class="item__text-category">HTML/CSS/JS</p>
+                            <h2 class="item__text-heading">Gap INC</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/items/item5.png?raw=true" alt="item-1" class="item__img">
+                    <div class="item__text">
+                        <div class="item__text-wrap">
+                            <p class="item__text-category">Browser Performance</p>
+                            <h2 class="item__text-heading">Sharp And Fast</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/items/item6.png?raw=true" alt="item-1" class="item__img">
+                    <div class="item__text">
+                        <div class="item__text-wrap">
+                            <p class="item__text-category">Layouts</p>
+                            <h2 class="item__text-heading">Pixel Perfect</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/items/item7.png?raw=true" alt="item-1" class="item__img">
+                    <div class="item__text">
+                        <div class="item__text-wrap">
+                            <p class="item__text-category">Self-development</p>
+                            <h2 class="item__text-heading">Be Better Every Day</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/items/item8.png?raw=true" alt="item-1" class="item__img">
+                    <div class="item__text">
+                        <div class="item__text-wrap">
+                            <p class="item__text-category">Web Application</p>
+                            <h2 class="item__text-heading">Trillo</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="https://github.com/t03jam8/modern-html-css/blob/master/portfolio_website/dist/img/items/item9.png?raw=true" alt="item-1" class="item__img">
+                    <div class="item__text">
+                        <div class="item__text-wrap">
+                            <p class="item__text-category">Social Network Concepts</p>
+                            <h2 class="item__text-heading">FriendFedd</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__heading">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="contact__text">Here is how you can reach me</div>
+            <form class="form">
+                <input type="text" name="Name" placeholder="Name" required class="form__text">
+                <input type="email" name="Email" placeholder="Email" required class="form__email">
+                <input type="number" name="Phone" placeholder="+7" class="form__phone">
+                <textarea placeholder="Message" class="form__message"></textarea>
+                <input type="submit" name="Submit" class=" form__btn btn-dark">
+            </form>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="container">
+            <div class="info__wrapper">
+                <div class="info-item">
+                    <i class="fas fa-envelope icon-big"></i>
+                    <div class="info__heading">
+                        <h3>Email</h3>
+                    </div>
+                    <div class="info__text">
+                        <p>almannaz161091</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone icon-big"></i>
+                    <div class="info__heading">
+                        <h3>Phone</h3>
+                    </div>
+                    <div class="info__text">
+                        <p>+7(925)555-55-55</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-address-card icon-big"></i>
+                    <div class="info__heading">
+                        <h3>Address</h3>
+                    </div>
+                    <div class="info__text">
+                        <p>Russia, 107370</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer" id="footer">
+        <div class="footer__content">
+            <p class="footer__text">&copy;2020, coded by Alman Nazyrov. Feel free if you want to use this site for
+                your own purposes. This site isn't designed by author!</p>
+            <div class="footer__social">
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter soc soc-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook soc soc-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i
+                        class="fab fa-instagram soc soc-instagram"></i></a>
+                <a href="https://www.linkedin.cn/uas/login" target="_blank"><i
+                        class="fab fa-linkedin soc soc-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+</body>
+
+</html>
